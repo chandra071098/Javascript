@@ -25,3 +25,7 @@ const num2=Math.random();
 if((num1>0.7 && num2>0.7) || (num1<=0.2 || num2<=0.2)){
     alert("Both the numbers are greater than 0.7 or one of the number is not greater than 0.2");
 }
+
+//Hoisting : Javscript by default moves var varibales and functions to th top. Var variables contains a value of undefinedgit .
+console.log(username);
+let username="Chandra";
